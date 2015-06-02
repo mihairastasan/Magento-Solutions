@@ -1,0 +1,19 @@
+{
+    "require": {
+        "magento-hackathon/magento-composer-installer":"dev-master",
+        "mindmagnet/ifdevice": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Cotya/magento-composer-installer"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mindmagnet/mindmagnet-ifdevice.git"
+        }
+    ],
+    "extra":{
+        "magento-root-dir": "./"
+    }
+}
