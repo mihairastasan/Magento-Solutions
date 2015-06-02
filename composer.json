@@ -6,8 +6,5 @@
 	"description":"Magento IfDevice",
 	"suggest": {
 		"magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
-	},
-	"require": {
-        "magento-hackathon/magento-composer-installer": "*"
-    },
+	}
 }
