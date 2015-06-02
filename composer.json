@@ -1,10 +1,14 @@
 {
 	"name":mihairastasan/Magento-Solutions",
+	"homepage":"https://github.com/mihairastasan/Magento-Solutions",
 	"type":"magento-module",
 	"license":"OSL-3.0",
-	"homepage":"https://github.com/mihairastasan/Magento-Solutions",
 	"description":"Magento IfDevice",
 	"suggest": {
 		"Cotya/magento-composer-installer": "Allows to manage this package as a dependency"
 	}
+	"require": {
+        "php": ">=5.0.0",
+        "magento-hackathon/magento-composer-installer": "*"
+    }
 }
